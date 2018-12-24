@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+*, *:before, *:after {
+  box-sizing: border-box;
+   outline:none;
+}
+
+
+
+body {
+  text-align:center;
+  background:mix($color,#fff,10%);
+  min-height:95vh;
+  margin:0;
+  padding:0;
+  border-bottom: 5vh solid $color;
+  font-family: 'Roboto';
+  font-size:24px;
+      background: -webkit-linear-gradient(left, #2b017a, #2b017a);
+  background: linear-gradient(to right, #1A004A, #1A004A);
+  color: #714BB9; 
+
+}
+p {
+font-family:"Arial Black", Gadget, sans-serif;
+}
+
+
+
+
+.lead.mt-5 {
+	font-size:15px;
+}
+
+
+
+.select select {
+	border-radius: 15px;
+  position: relative;
+  display: block;
+  width:auto;
+  margin: 0 auto;
+  border: 2px solid #3C1C78;
+  background-color: #16013E;
+  z-index: 10;
+
+  
+}
+  
+  select{
+  	text-align-last:center;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
+    color: #714BB9;  
+    letter-spacing: 0.0635em;
+    font-family: Brush Script MT, sans-serif;
+    font-style: italic;
+
+   
+
+}
+select:hover {
+opacity: 0.4;
+}
+
+option:hover { 
+    background-color: yellow;
+}
+
+ option{
+ 	border: 5px solid #3C1C78;
+ 	 background: transparent
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    color: #714BB9;  
+	font-family: 'Roboto';
+
+
+}
+
+ul {
+	font-family:Impact, Charcoal, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16013E;
+
+
+
+}
+
+li {
+    float: left;
+
+    
+    
+}
+
+li a {
+    display: block;
+    color: #714BB9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+   opacity: 0.4;
+}
+
+.active {
+    opacity:0.4;
+}
+
+.right{
+    float:right;
+  
+
+}
+
+
+.contain{
+
+display:inline;
+
+}
+#container{
+float:left;
+padding-left:2%;
+width:45%;
+ 
+
+}
+#container2{
+
+  float:right;
+  padding-right:2%;
+  width:45%;
+
+}
